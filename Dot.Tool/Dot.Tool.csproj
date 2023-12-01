@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dot.Language\Dot.Language.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Configuration\" />
+    <Folder Include="HTMLHelper\" />
+    <Folder Include="Middleware\" />
+    <Folder Include="Extension\" />
+    <Folder Include="Utility\" />
+    <Folder Include="TagHelper\" />
+  </ItemGroup>
+
+</Project>

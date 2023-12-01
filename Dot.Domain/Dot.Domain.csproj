@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Aggregate\" />
+    <Folder Include="Entity\CMS\" />
+    <Folder Include="Entity\UserIdentity\" />
+    <Folder Include="Event\" />
+    <Folder Include="Enumeration\" />
+    <Folder Include="DTO\" />
+    <Folder Include="ViewModel\" />
+    <Folder Include="Structure\" />
+    <Folder Include="ValueObject\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dot.Tool\Dot.Tool.csproj" />
+  </ItemGroup>
+
+</Project>

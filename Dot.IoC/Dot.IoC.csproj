@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dot.BusinessLogic\Dot.BusinessLogic.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dot.APIConfiguration\" />
+    <Folder Include="Dot.WebApplicationConfiguration\" />
+    <Folder Include="Dot.DashboardConfiguration\" />
+    <Folder Include="Dot.CDNConfiguration\" />
+    <Folder Include="Dot.WorkerConfiguration\" />
+    <Folder Include="Dot.IdentityConfiguration\" />
+  </ItemGroup>
+
+</Project>

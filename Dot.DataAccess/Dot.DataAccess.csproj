@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dot.Domain\Dot.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="IdentityContext\Configuration\" />
+    <Folder Include="IdentityContext\Seed\" />
+    <Folder Include="IdentityContext\Provider\" />
+    <Folder Include="Infrastructure\SharedKernel\" />
+    <Folder Include="Migration\MongoDB\" />
+    <Folder Include="Migration\SQLLite\" />
+    <Folder Include="Migration\SQLSever\" />
+    <Folder Include="MongoDB\" />
+    <Folder Include="Provider\" />
+    <Folder Include="Redis\" />
+    <Folder Include="SQLServer\Interface\" />
+    <Folder Include="SQLServer\Provider\" />
+    <Folder Include="SQLServer\Seed\" />
+    <Folder Include="SQLServer\Persistance\" />
+  </ItemGroup>
+
+</Project>
