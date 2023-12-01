@@ -1,4 +1,4 @@
-namespace Dot.Identity
+namespace Dot.IdentityServer
 {
     public class Program
     {

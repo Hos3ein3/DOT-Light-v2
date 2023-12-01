@@ -33,7 +33,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dot.CDN", "Dot.CDN\Dot.CDN.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dot.Worker", "Dot.Worker\Dot.Worker.csproj", "{0E57D3EC-34AA-4271-9DE9-7191029EA855}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dot.Identity", "Dot.Identity\Dot.Identity.csproj", "{93AFFDB9-17C7-49BE-BB31-B77D05DCC75D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dot.IdentityServer", "Dot.Identity\Dot.IdentityServer.csproj", "{93AFFDB9-17C7-49BE-BB31-B77D05DCC75D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{8D3AAD61-DE3D-484E-B8F6-A66D542EEDBA}"
 EndProject
